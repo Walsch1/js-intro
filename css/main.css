@@ -1,0 +1,20 @@
+body {
+  background: #CCC;
+  font-family: sans-serif;
+  text-align: center;
+}
+body.killed {
+  background: #F00;
+}
+body.killed #animals {
+  font-size: 100px;
+}
+a {
+  border: solid 2px #FFF;
+  color: #FFF;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#animals {
+  font-weight: bold;
+}
